@@ -1,0 +1,9 @@
+{
+  "name": "Upcoming",
+  "env": {
+    "RACK_ENV": "production",
+    "VIDEOETA_USER": "@user.videoeta.com",
+    "VIDEOETA_PASS": "@pass.videoeta.com"
+  },
+  "public": true
+}
