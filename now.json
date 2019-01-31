@@ -5,5 +5,6 @@
     "VIDEOETA_USER": "@user.videoeta.com",
     "VIDEOETA_PASS": "@pass.videoeta.com"
   },
-  "public": true
+  "public": true,
+  "alias": ["upcoming-7fba81450628.mk.gs"]
 }

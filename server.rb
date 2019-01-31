@@ -12,6 +12,7 @@ require 'sinatra/json'
 require 'videoeta'
 
 set :bind, '0.0.0.0'
+set :protection, except: [:json_csrf]
 
 before do
   # Have the CDN cache the response.
