@@ -3,13 +3,13 @@
 This is a serverless function that returns a list of upcoming movies/series as
 JSON.
 
-The function should be available at https://upcoming-7fba81450628.mk.gs
+The function should be available at https://upcoming-7fba81450628.maero.dk
 providing it isn't throttled.
 
 
 ## Example
 
-`curl -s https://upcoming-7fba81450628.mk.gs | jq .`
+`curl -s https://upcoming-7fba81450628.maero.dk | jq .`
 
 Will output:
 
