@@ -9,6 +9,7 @@ require 'thin'
 require 'sinatra'
 require 'sinatra/json'
 
+require 'upcoming'
 require 'videoeta'
 
 set :bind, '0.0.0.0'
@@ -21,6 +22,8 @@ end
 
 videoeta_client = VideoETA::Client.new(ENV['VIDEOETA_USER'],
                                        ENV['VIDEOETA_PASS'])
+
+netflix_client = Upcoming::Netflix::Client.new
 
 def get_videoeta_releases(videoeta_client)
   (1..12).map do |month|
@@ -55,6 +58,14 @@ get '/' do
     },
     updated_at: DateTime.now,
   })
+end
+
+get '/netflix' do
+  json({
+    success: true,
+    netflix: netflix_client.upcoming
+  })
+
 end
 
 error do
