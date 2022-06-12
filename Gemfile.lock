@@ -41,20 +41,20 @@ GEM
     public_suffix (4.0.7)
     racc (1.6.0)
     rack (2.2.3.1)
-    rack-protection (2.1.0)
+    rack-protection (2.2.0)
       rack
-    ruby2_keywords (0.0.4)
+    ruby2_keywords (0.0.5)
     rubyntlm (0.6.3)
-    sinatra (2.1.0)
+    sinatra (2.2.0)
       mustermann (~> 1.0)
       rack (~> 2.2)
-      rack-protection (= 2.1.0)
+      rack-protection (= 2.2.0)
       tilt (~> 2.0)
-    sinatra-contrib (2.1.0)
+    sinatra-contrib (2.2.0)
       multi_json
       mustermann (~> 1.0)
-      rack-protection (= 2.1.0)
-      sinatra (= 2.1.0)
+      rack-protection (= 2.2.0)
+      sinatra (= 2.2.0)
       tilt (~> 2.0)
     thin (1.8.1)
       daemons (~> 1.0, >= 1.0.9)
@@ -74,8 +74,8 @@ PLATFORMS
 DEPENDENCIES
   httpx (~> 0.6)
   mechanize (~> 2.8)
-  sinatra (~> 2.0)
-  sinatra-contrib (~> 2.0)
+  sinatra (~> 2.2)
+  sinatra-contrib (~> 2.2)
   thin (~> 1.7)
 
 BUNDLED WITH
